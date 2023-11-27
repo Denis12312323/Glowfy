@@ -1178,7 +1178,9 @@ body {
     }
 }
 
-.blog__item__header {}
+.blog__item__header {
+    position: relative;
+}
 
 .blog__item {
     border-radius: 24px;
@@ -1200,6 +1202,7 @@ body {
     line-height: 1.6;
     border-radius: 0px 10px 0px 0px;
     background: rgba(129, 129, 139, 0.50);
+    z-index: 5;
     /* 160% */
 }
 
